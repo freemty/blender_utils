@@ -1,0 +1,3 @@
+set_fps 2 
+quick_render
+render    0   0   0   0   1 

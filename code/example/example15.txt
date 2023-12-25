@@ -1,0 +1,98 @@
+set_fps 1
+render 0 5 0 -145 0.4
+set_color 0.5 0.5 0.5 0.5 0
+shadow_plane 0 0 -0.11 0.4
+set_color 0.66 0.45 0.23 0.8 1
+load off example/example15/0002.off 0 0 0 1 xzy
+render 1 5 0 -145 0.4
+clear
+
+set_fps 1
+render 1 5 0 -145 0.4
+set_color 0.5 0.5 0.5 0.5 0
+shadow_plane 0 0 -0.11 0.4
+set_color 0.66 0.45 0.23 0.8 1
+load off example/example15/0002_simplified.off 0 0 0 1 xzy
+render 2 5 0 -145 0.4
+clear
+
+set_fps 1
+render 2 5 0 -145 0.4
+set_color 0.5 0.5 0.5 0.5 0
+shadow_plane 0 0 -0.11 0.4
+set_color 0.66 0.45 0.23 0.8 1
+load off example/example15/0003.off 0 0 0 1 xzy
+render 3 5 0 -145 0.4
+clear
+
+set_fps 1
+render 3 5 0 -145 0.4
+set_color 0.5 0.5 0.5 0.5 0
+shadow_plane 0 0 -0.11 0.4
+set_color 0.66 0.45 0.23 0.8 1
+load off example/example15/0003_simplified.off 0 0 0 1 xzy
+render 4 5 0 -145 0.4
+clear
+
+set_fps 1
+render 4 5 0 -145 0.4
+set_color 0.5 0.5 0.5 0.5 0
+shadow_plane 0 0 -0.11 0.4
+set_color 0.66 0.45 0.23 0.8 1
+load off example/example15/0004.off 0 0 0 1 xzy
+render 5 5 0 -145 0.4
+clear
+
+set_fps 1
+render 5 5 0 -145 0.4
+set_color 0.5 0.5 0.5 0.5 0
+shadow_plane 0 0 -0.11 0.4
+set_color 0.66 0.45 0.23 0.8 1
+load off example/example15/0004_simplified.off 0 0 0 1 xzy
+render 6 5 0 -145 0.4
+clear
+
+set_fps 1
+render 6 5 0 -145 0.4
+set_color 0.5 0.5 0.5 0.5 0
+shadow_plane 0 0 -0.11 0.4
+set_color 0.66 0.45 0.23 0.8 1
+load off example/example15/0109.off 0 0 0 1 xzy
+render 7 5 0 -145 0.4
+clear
+
+set_fps 1
+render 7 5 0 -145 0.4
+set_color 0.5 0.5 0.5 0.5 0
+shadow_plane 0 0 -0.11 0.4
+set_color 0.66 0.45 0.23 0.8 1
+load off example/example15/0127.off 0 0 0 1 xzy
+render 8 5 0 -145 0.4
+clear
+
+set_fps 1
+render 8 5 0 -145 0.4
+set_color 0.5 0.5 0.5 0.5 0
+shadow_plane 0 0 -0.11 0.4
+set_color 0.66 0.45 0.23 0.8 1
+load off example/example15/0210.off 0 0 0 1 xzy
+render 9 5 0 -145 0.4
+clear
+
+set_fps 1
+render 9 5 0 -145 0.4
+set_color 0.5 0.5 0.5 0.5 0
+shadow_plane 0 0 -0.11 0.4
+set_color 0.66 0.45 0.23 0.8 1
+load off example/example15/0435.off 0 0 0 1 xzy
+render 10 5 0 -145 0.4
+clear
+
+set_fps 1
+render 10 5 0 -145 0.4
+set_color 0.5 0.5 0.5 0.5 0
+shadow_plane 0 0 -0.11 0.4
+set_color 0.66 0.45 0.23 0.8 1
+load off example/example15/1224.off 0 0 0 1 xzy
+render 11 5 0 -145 0.4
+clear

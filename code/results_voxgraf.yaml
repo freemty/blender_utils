@@ -1,0 +1,70 @@
+multires:
+    input: '/home/yliao/projects/blendviz/code/data/multires/*.ply'
+    number_obj: 3
+    render:
+        format: 'off'
+        offset_x: [-0.96, -0.96, -0.96]
+        offset_y: [-0.96, -0.96, -0.96]
+        offset_z: [-0.96, -0.96, -0.96]
+        scale: [0.06, 0.03, 0.015]
+        rotate_x: [0.0, 0., 0.]
+        rotate_y: [-0.1, -0.1, -0.1]
+        rotate_z: [-1.5708, -1.5708, -1.5708]
+        number_frame: [1, 1, 1]
+        axis: xyz
+teaser_left:
+    input: '/home/yliao/projects/blendviz/code/data/teaser/*.ply'
+    number_obj: 4
+    render:
+        format: 'off'
+        offset_x: [-0.96, -0.96, -0.96, -0.96]
+        offset_y: [-0.96, -0.96, -0.96, -0.96]
+        offset_z: [-0.96, -0.96, -0.96, -0.96]
+        scale: [0.015, 0.015, 0.015, 0.015]
+        rotate_x: [0.0, 0., 0., 0]
+        rotate_y: [-0.1, -0.1, -0.1, -0.1]
+        rotate_z: [-1.15208, -1.15208, -1.15208, -1.15208]
+        number_frame: [1, 1, 1, 1]
+        axis: xyz
+teaser_right:
+    input: '/home/yliao/projects/blendviz/code/data/teaser/*.ply'
+    number_obj: 4
+    render:
+        format: 'off'
+        offset_x: [-0.96, -0.96, -0.96, -0.96]
+        offset_y: [-0.96, -0.96, -0.96, -0.96]
+        offset_z: [-0.96, -0.96, -0.96, -0.96]
+        scale: [0.015, 0.015, 0.015, 0.015]
+        rotate_x: [0.0, 0., 0., 0]
+        rotate_y: [-0.1, -0.1, -0.1, -0.1]
+        rotate_z: [-1.90208, -1.90208, -1.90208,-1.90208,]
+        number_frame: [1, 1, 1, 1]
+        axis: xyz
+teaser_front:
+    input: '/home/yliao/projects/blendviz/code/data/teaser/*.ply'
+    number_obj: 4
+    render:
+        format: 'off'
+        offset_x: [-0.96, -0.96, -0.96, -0.96]
+        offset_y: [-0.96, -0.96, -0.96, -0.96]
+        offset_z: [-0.96, -0.96, -0.96, -0.96]
+        scale: [0.015, 0.015, 0.015, 0.015]
+        rotate_x: [0.0, 0., 0., 0.]
+        rotate_y: [-0.1, -0.1, -0.1, -0.1]
+        rotate_z: [-1.5208, -1.5208, -1.5208, -1.5208,]
+        number_frame: [1, 1, 1, 1]
+        axis: xyz
+three_datasets:
+    input: '/home/yliao/projects/blendviz/code/data/three_datasets/*.ply'
+    number_obj: 5
+    render:
+        format: 'off'
+        offset_x: [-1.28, -1.28, -0.96, -0.96, -0.96]
+        offset_y: [-1.28, -1.28, -0.96, -0.96, -0.96]
+        offset_z: [-1.68, -1.68, -0.96, -0.96, -0.96]
+        scale: [0.02, 0.02, 0.015, 0.015, 0.015]
+        rotate_x: [0.1, 0.4, 0., 0., 0.]
+        rotate_y: [0.3, 0.3, -0.1, -0.1, -0.1]
+        rotate_z: [-2.5, -2.5, -1.5208, -1.5208, -1.5208,]
+        number_frame: [16, 16, 1, 1, 1]
+        axis: xyz

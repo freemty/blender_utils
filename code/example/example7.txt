@@ -1,0 +1,5 @@
+set_fps 10
+render    0   0   0   0   0.5
+load wavefront_obj example/example7/6.obj -0.5 -0.22 -0.22 0.018518519 yxz
+render   1   0   0   360   0.5
+clear

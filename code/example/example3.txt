@@ -1,0 +1,5 @@
+set_fps 10
+set_color   0.2 0.9 0.4 0.4
+load npy_tdf example/example3/occupancy.npy marching_cubes
+render    1   0   0   360   1
+clear

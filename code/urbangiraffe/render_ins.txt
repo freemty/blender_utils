@@ -1,0 +1,8 @@
+set_fps 30
+render    0   0   0   0   1
+set_color 0.27450980392156865 0.27450980392156865 0.27450980392156865 1.0 
+load off urbangiraffe/instance_11.off 0.0 0.0 -0.5 0.035 xzy
+set_color 0.0 0.0 0.5568627450980392 1.0 
+load off urbangiraffe/instance_26.off 0.0 0.0 -0.5 0.035 xzy
+render    1   0   0   360   1
+clear

@@ -1,0 +1,8 @@
+set_fps 10
+render    0   0   0   0   1
+set_color 0.5 0.5 0.5 0.5
+ground_plane 0 0 -0.5
+set_color 0 0 1 1
+load binvox example/example11/chair.binvox cubes 0.014 0 0 0 1 -1 1 xzy
+render    1   0   0   360   1
+clear

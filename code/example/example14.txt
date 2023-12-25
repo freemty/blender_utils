@@ -1,0 +1,9 @@
+set_fps 1
+render 0 5 0 -55 0.325
+set_color 0.5 0.5 0.5 0.5 0
+shadow_plane 0 0 -0.11 0.325
+set_color 1 0 0 1 0
+load efficient_txt_voxel_list example/example14/9.txt spheres -0.5 -0.22 -0.22 0.018518519 xzy 0.005
+set_color 0.66 0.45 0.23 0.8 1
+load off example/example14/9.off -0.5 -0.22 -0.22 0.018518519 xzy
+render 1 5 0 -55 0.325

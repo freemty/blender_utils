@@ -1,0 +1,5 @@
+set_fps 10
+render    0   0   0   0   1
+load wavefront_obj example/example5/capsule.obj 0 0 0 1
+render   1   0   0   180   1
+clear

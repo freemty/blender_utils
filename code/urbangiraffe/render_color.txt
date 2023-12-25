@@ -1,0 +1,20 @@
+set_fps 30 
+high_quality_render
+render    0   0   0   0   1 
+set_color 0.3176470588235294 0.0 0.3176470588235294 1.0 
+load efficient_txt_voxel_list urbangiraffe/0000000320_06.txt cubes 0.0 0.0 -1.0 2.0 zxy
+set_color 0.5019607843137255 0.25098039215686274 0.5019607843137255 1.0 
+load efficient_txt_voxel_list urbangiraffe/0000000320_07.txt cubes 0.0 0.0 -1.0 2.0 zxy
+set_color 0.9568627450980393 0.13725490196078433 0.9098039215686274 1.0 
+load efficient_txt_voxel_list urbangiraffe/0000000320_08.txt cubes 0.0 0.0 -1.0 2.0 zxy
+set_color 0.9803921568627451 0.6666666666666666 0.6274509803921569 1.0 
+load efficient_txt_voxel_list urbangiraffe/0000000320_09.txt cubes 0.0 0.0 -1.0 2.0 zxy
+set_color 0.4 0.4 0.611764705882353 1.0 
+load efficient_txt_voxel_list urbangiraffe/0000000320_12.txt cubes 0.0 0.0 -1.0 2.0 zxy
+set_color 0.7450980392156863 0.6 0.6 1.0 
+load efficient_txt_voxel_list urbangiraffe/0000000320_13.txt cubes 0.0 0.0 -1.0 2.0 zxy
+set_color 0.4196078431372549 0.5568627450980392 0.13725490196078433 1.0 
+load efficient_txt_voxel_list urbangiraffe/0000000320_21.txt cubes 0.0 0.0 -1.0 2.0 zxy
+set_color 0.596078431372549 0.984313725490196 0.596078431372549 1.0 
+load efficient_txt_voxel_list urbangiraffe/0000000320_22.txt cubes 0.0 0.0 -1.0 2.0 zxy
+render    1   0   0   360   1

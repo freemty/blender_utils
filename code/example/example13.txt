@@ -1,0 +1,8 @@
+set_fps 60
+render    0   0   0  0   1
+set_color 1.0 1.0 1.0 0.3
+ground_plane 0 0 -0.5 1
+set_color 0.4 0.9 0.2 1.0
+load npy example/example13/tower_TSDF.npy marching_cubes
+render    1   0   0   360   1
+clear

@@ -1,0 +1,6 @@
+set_fps 10
+set_color   0.2 0.9 0.4 1.0
+load octree example/example4/test.octree
+render    5   0   0   270   0.5
+render    6   0   0   360   0.5
+clear

@@ -1,0 +1,10 @@
+set_fps 1
+render    0   0   0   270   2.5
+set_color   0 0 1 0.35 0
+load txt_bounding_boxes example/example9/000025.txt 0 0 0 0.1 xzy
+set_color   1 0 0 0.35 0
+load txt_bounding_boxes example/example9/000025_det.txt 0 0 0 0.1 xzy
+set_color   0 0 0 1 0
+load efficient_bin example/example9/000025.bin spheres 0.005 0 0 0 0.1 0.1 0.1 yxz 10
+render    1   0   0   270   2.5
+clear

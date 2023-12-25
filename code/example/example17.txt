@@ -1,0 +1,10 @@
+set_fps 1
+render 0 5 0 -55 0.325
+set_color 0.5 0.5 0.5 0.5 0
+shadow_plane 0 0 -0.11 0.325
+set_color   0.66 0.45 0.23 0.8 1
+load binvox example/example17/1_pred_input.binvox cubes 0.007 0 0 0 1 0.44444 0.44444 zxy
+set_color   0.65 0.23 0.25 1 1
+load binvox example/example17/1_input.binvox cubes 0.007 0 0 0 1 0.44444 0.44444 zxy
+render 1 5 0 -55 0.325
+clear
