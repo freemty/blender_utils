@@ -1,9 +1,0 @@
-set_fps 2 
-high_quality_render
-set_color 1.0 0.9490196078431372 0.6823529411764706 1.0 
-load txt_voxel_list veri3d/teaser/vertices_part00.txt spheres 0. 0. -0.25 1. xzy
-set_color 0.8 0.8 0.8 1.0 
-load txt_voxel_list veri3d/teaser/vertices_part02.txt spheres 0. 0. -0.25 1. xzy
-set_color 0.8 0.8 0.8 1.0 
-load txt_voxel_list veri3d/teaser/vertices_part03.txt spheres 0. 0. -0.25 1. xzy
-render    1   0   0   360   1

@@ -10,7 +10,8 @@ blender --background --python render_keys.py -- example/key_list.txt 1>/dev/null
 import argparse, sys, os
 
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
-sys.path.append('/home/yliao/anaconda3/envs/pytorch1.8/lib/python3.8/site-packages')
+sys.path.append('/Users/sum_young/miniconda3/envs/blenderviz/lib/python3.8/site-packages')
+# sys.path.append('/Users/sum_young/anaconda3/envs/pytorch1.8/lib/python3.8/site-packages')
 print(sys.path)
 import blender_utils
 from render_logging import log, LogLevel
